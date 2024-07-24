@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body, form, .fields, .form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  align-items: center;
+  background-color: #446853;
+  color: white;
+  gap: 40px;
+  height: 100dvh;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+form {
+  gap: 40px;
+}
+
+.fields {
+  gap: 10px;
+}
+
+.form-control {
+  gap: 6px;
+}
+
+.form-control label {
+  font-weight: semi-bold;
+  font-size: 1.8rem;
+}
+
+.form-control input {
+  border-radius: .4rem;
+  font-size: 1.4rem;
+  padding: 8px;
+}
+
+form button {
+  border-radius: .4rem;
+  font-size: 2rem;
+  padding: 8px;
+}
