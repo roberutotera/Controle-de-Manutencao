@@ -5,10 +5,10 @@ Este é um projeto desenvolvido para automatizar o processo em grandes empresas 
 
 **Status do Projeto:** Este projeto ainda está em desenvolvimento e não foi finalizado.
 
-# Descrição do Projeto
+## Descrição do Projeto
 A API permite o cadastro e gerenciamento de ativos, agendamento de manutenções preventivas, registro de histórico de manutenções realizadas e geração de relatórios de desempenho dos ativos.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 Spring Boot Framework
 
 BCrypt
@@ -21,7 +21,7 @@ JavaScript
 
 MySQL
 
-# Funcionalidades Principais
+## Funcionalidades Principais
 
 Cadastro de Ativos: Permitir o cadastro detalhado de ativos da empresa, neste caso os computadores.
 
@@ -35,5 +35,5 @@ Gerenciamento de Usuários: Permitir a criação, edição e exclusão de usuár
 
 Notificações e Alertas: Enviar notificações automáticas sobre próximas manutenções programadas, manutenções vencidas ou eventos importantes relacionados aos ativos.
 
-# Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT.
